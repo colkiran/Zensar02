@@ -1,0 +1,87 @@
+\w 			-	word - alpha numeric data
+
+  T    U
+[0-6][1-9]
+
+ 1		1, 2, 3, 4, 5, 6, 7, 8, 9		=> 11, 12.. 19
+ 2		1, 2, 3, 4, 5, 6, 7, 8, 9
+ 3		1, 2, 3, 4, 5, 6, 7, 8, 9
+ 4		1, 2, 3, 4, 5, 6, 7, 8, 9	
+ 5		1, 2, 3, 4, 5, 6, 7, 8, 9	
+ 6		1, 2, 3, 4, 5, 6, 7, 8, 9		=> 61, 62... 69
+
+
+[1-7][0-3]
+
+  1    0, 1, 2, 3
+  2
+  3
+  4
+  5
+  6
+  7  	0, 1, 2, 3
+
+1. compile
+2. findall
+3. finditer
+4. sub
+
+
+
+--------------------------------------------------------------------------------------
+
+PROBLEM - 01
+----------
+words that start with(case sensitive)
+A, W, T, O, M, Z, Y, P, S
+
+
+words that start with(case insensitive)
+a, e, i, o, u, b, n, k, c
+
+
+words that does not have these characters
+a, e, i, o, u, t, g, n
+
+
+words that have these characters
+a, e, i, o, u, c, b, n, x, y, z
+
+
+words that end with
+a, e, i, o, u, s, t 
+
+
+PROBLEM - 02
+-------------
+
+Validate a date
+---------------
+dd/mm/yyyy
+dd-mm-yyyy
+
+invalid
+-------
+dd-mm/yyyy
+dd/mm-yyyy
+
+
+dd - 01 - 31
+mm - 01 - 12
+yyyy - 1900+
+
+
+PROBLEM - 03
+------------
+
+url = "www.google.com / search='%new hindi movies?' % / get_data2019 / fetch_data frm_1 / imdb? %hindi%movies$& / result = page1.aspx"
+
+
+Regular expression to find the text
+	a. before  /
+	b. between /
+	c. after 	/
+
+
+
+

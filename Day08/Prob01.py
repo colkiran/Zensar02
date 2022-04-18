@@ -1,14 +1,13 @@
 
+# mastering regular expression
 import re
 
-def regEx(ln1):
-    res = re.search(r'[0-9][0-9][0-9][1-9]',ln1)
-    if res:
-        print(res.group(0))
-        print("Match found")
-    else:
-        print("Match not found")
+lcno = "LCNO-APN-70-2022-2320"
+res = re.search(r'LCNO-(KAR|KER|TND|TEL|APN|MAH|GOA)-([0-6][1-9]|[1-7][0-3])-([2-9][0-9]{3})'
+                r'-((?!0000)[0-9]{4})', lcno)
 
-regEx("0000")
-regEx("0001")
-regEx("10000")
+if res:
+    print("Match found....")
+    print(res.group(0))
+else:
+    print('Match not found......')
