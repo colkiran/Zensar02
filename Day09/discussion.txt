@@ -1,0 +1,18 @@
+WEB SCRAPPING
+-------------
+
+Product ->	marketting site like Amazon, flipkart, Myntra, snapdeal
+
+Flight Tickets, Hotel Rooms	=> provide authentication 
+								=> automated tools like selenium
+
+
+1. self built or pre-built
+
+2. Browser Extension vs software
+
+3. User Interface
+
+4. Cloud vs Local
+
+
