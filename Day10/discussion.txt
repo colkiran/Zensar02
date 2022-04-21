@@ -1,0 +1,53 @@
+https://www.flipkart.com/search?q=smart+watches&sid=ajy%2Cbuh&as=on&as-show=on&otracker=AS_QueryStore_HistoryAutoSuggest_1_3_na_na_na&otracker1=AS_QueryStore_HistoryAutoSuggest_1_3_na_na_na&as-pos=1&as-type=HISTORY&suggestionId=smart+watches%7CSmart+Watches&requestId=dc047907-b586-4970-9567-785a7d4cf328&as-backfill=on
+
+
+https://www.flipkart.com/search?q=smart+watches&sid=ajy%2Cbuh&as=on&as-show=on&otracker=AS_QueryStore_HistoryAutoSuggest_1_3_na_na_na&otracker1=AS_QueryStore_HistoryAutoSuggest_1_3_na_na_na&as-pos=1&as-type=HISTORY&suggestionId=smart+watches%7CSmart+Watches&requestId=dc047907-b586-4970-9567-785a7d4cf328&as-backfill=on&page=3
+
+
+https://www.flipkart.com/search?q=smart+watches+samsung&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off&page=1
+
+<div class="_30jeq3 _1_WHN1">₹12,591</div>
+
+
+Web Application
+---------------
+
+how does internet work?
+
+what happens when I type www.google.com/search="mike tyson"/wikipedia_mike_tyson.jsp
+
+python has many web frameworks 
+
+1. flask			-	 microservices, REST API
+2. Django			-	 MVC pattern, REST API
+3. Pyramid
+
+
+Django is web development framework which assists in building and maintining web application. Django helps in eliminate repetativ tasks
+
+ORM - Object Relational Mapping - 
+
+AJAX, RSS, Caching
+
+django-admin startproject myproject
+python .\manage.py runserver
+
+
+MVC pattern
+MVT pattern
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
