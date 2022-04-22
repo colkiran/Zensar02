@@ -5,6 +5,7 @@ from django.http import HttpResponse
 def home(request):
     # return HttpResponse("<h1> Hello World </h1>")
     return render(request, "home.html", {'gname': 'Sachin Tendulkar'})
+<<<<<<< HEAD
 
 def add(request):
     val1 = int(request.POST['num1'])
@@ -12,3 +13,5 @@ def add(request):
 
     val3 = val1 + val2
     return render(request, 'result.html', {'res': val3})
+=======
+>>>>>>> origin/master
