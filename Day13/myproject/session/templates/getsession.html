@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Get Session</title>
+</head>
+<body>
+    {% if  "brndname" in keys %}
+       {% for key in keys %}
+            <h2>{{key}}</h2>
+        {% endfor %}
+
+        <hr/>
+        <h2>{{brndname}}</h2>
+        <h2>{{prod}}</h2>
+        <h2>{{price}}</h2>
+        <hr/>
+
+        {% for item in items %}
+            <h2> {{item}} </h2>
+        {% endfor %}
+
+        <hr/>
+        {% for key, value in items %}
+            <h2> {{key}} => {{value}}</h2>
+        {% endfor %}
+
+    {% else %}
+        <h2> Session deleted....</h2>
+    {% endif %}
+</body>
+</html>

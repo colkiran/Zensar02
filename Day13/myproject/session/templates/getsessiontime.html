@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Get Session Time </title>
+</head>
+<body>
+    <h2> Session time expiry date / time</h2>
+    <h2> {{prdname}} <br>
+         Session Cookie Age  :{{request.session.get_session_cookie_age}} <br>
+         Session Expiry Age  :{{request.session.get_expiry_age}}<br>
+         Session Expiry Date :{{request.session.get_expiry_date}} <br>
+         Session Browser Close :{{request.session.get_expire_at_browser_close}} <br>
+    </h2>
+</body>
+</html>
