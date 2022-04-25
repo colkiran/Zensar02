@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Student Management Application </title>
+    <link rel="stylesheet" href="{% static '/css/bootstrap.min.css' %}">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center alert alert-danger"> Student Management Form </h2>
+
+        {% block content %}
+
+        {% endblock content %}
+    </div>
+
+    <script src="{% static '/js/jquery.js' %}"> </script>
+    <script src="{% static '/js/popper.js' %}"> </script>
+    <script src="{% static '/js/bootstrap.min.js' %}"> </script>
+
+</body>
+</html>
