@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{uname}}'s Web page</title>
+</head>
+<body>
+        <h1> {{uname}}'s Fruit Shop</h1>
+        <h2> {{content}} </h2>
+        {% for fruit in fruits %}
+            <ul type="square">
+            <p> <h3> <li> {{fruit}}  </li> </h3> </p>
+            </ul>
+        {% endfor %}
+</body>
+</html>

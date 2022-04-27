@@ -30,3 +30,13 @@ except Exception as e:
     print(e)
 finally:
     print("completed the process of voting.....")
+
+# ---------------------------------------------
+price = 45
+if price <= 100:
+    print("Good deal")
+elif price <=75:
+    print("Great Deal")
+elif price <=50:
+    print("Best Deal")
+
