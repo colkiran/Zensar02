@@ -1,0 +1,11 @@
+Flask
+-----
+Web application framework  - Armin Ronacher - Pocco
+
+Werkzueg
+WSGI 			-	Webserver Gateway Interface
+Jinja2 Templates
+
+
+
+webserver -> configure the webserver -
