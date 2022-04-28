@@ -1,0 +1,14 @@
+
+{% extends 'base.html' %}
+{% block title %} {% endblock %}
+
+{% block content %}
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for msg in messages %}
+                <p> {{msg}}</p>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+        <p> <h2> Hello {{usr}} you are using POST method </h2></p>
+{% endblock %}

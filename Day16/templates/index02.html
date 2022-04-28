@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Web Page</title>
+</head>
+<body>
+    <h1> Home page of {{username}} </h1>
+    <p><h2> {{content}} </h2></p>
+        {% for x in range(1, 11) %}
+            {% if x % 2 == 1 %}
+                <p><h3> {{x}} </h3></p>
+            {% endif %}
+        {% endfor %}
+</body>
+</html>
